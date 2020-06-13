@@ -1,21 +1,4 @@
----
-layout: layout
----
-Contact us
-via FormSubmit.co
-Your Name:
+This is just a demo.
 
-Your Email:
 
-Message: <textarea name="message"></textarea>
-
-Attachment:
-
-via Netlify Form
-Your Name:
-
-Your Email:
-
-Message: <textarea name="message"></textarea>
-
-Attachment:
+ahahahhhhhhhh
