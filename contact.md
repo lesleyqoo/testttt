@@ -1,19 +1,27 @@
+---
+layout: layout.html
+---
+
+# Contact us
+
+## via FormSubmit.co
+
 <form name="contact" method="POST" action="https://formsubmit.co/demo@makzan.net" enctype="multipart/form-data">
   <p>
     <label>
-      Your Name:
+      Your Name: 
       <input type="text" name="name" />
-    </label>
+    </label>   
   </p>
   <p>
     <label>
-      Your Email:
+      Your Email: 
       <input type="email" name="email" />
     </label>
   </p>
   <p>
     <label>
-      Message:
+      Message: 
       <textarea name="message"></textarea>
     </label>
   </p>
@@ -29,3 +37,34 @@
   </p>
 </form>
 
+## via Netlify Form
+
+<form name="contact" method="POST" data-netlify="true" enctype="multipart/form-data">
+  <p>
+    <label>
+      Your Name: 
+      <input type="text" name="name" />
+    </label>   
+  </p>
+  <p>
+    <label>
+      Your Email: 
+      <input type="email" name="email" />
+    </label>
+  </p>
+  <p>
+    <label>
+      Message: 
+      <textarea name="message"></textarea>
+    </label>
+  </p>
+  <p>
+    <label>
+      Attachment:
+      <input type="file" name="attachment" multiple>
+    </label>
+  </p>
+  <p>
+    <input type="submit" value="Send">
+  </p>
+</form>
