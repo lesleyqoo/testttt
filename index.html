@@ -1,16 +1,32 @@
-<form action="https://example.com" method="post">
+<form name="contact" method="POST" data-netlify="true" enctype="multipart/form-data">
   <p>
-    <label>Name:
-      <input type="text" name="name">
-    </label>    
+    <label>
+      Your Name:
+      <input type="text" name="name" />
+    </label>
   </p>
   <p>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email">    
+    <label>
+      Your Email:
+      <input type="email" name="email" />
+    </label>
   </p>
   <p>
-    <label for="content">Content:</label>
-    <textarea name="content" id="content"></textarea>
+    <label>
+      Message:
+      <textarea name="message"></textarea>
+    </label>
   </p>
-  <input type="submit" value="Send Form">
+  <p>
+    <label>
+      Attachment:
+      <input type="file" name="attachment">
+    </label>
+  </p>
+  <p>
+    <input type="submit" value="Send">
+  </p>
 </form>
+📢 FormSubmit.co
+
+📎 Download attachment: Screen_Shot_2020-06-13_at_12.03.13_PM.png 
