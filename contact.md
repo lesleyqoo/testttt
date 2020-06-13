@@ -1,4 +1,4 @@
-<form name="contact" method="POST" data-netlify="true" enctype="multipart/form-data">
+<form name="contact" method="POST" action="https://formsubmit.co/demo@makzan.net" enctype="multipart/form-data">
   <p>
     <label>
       Your Name:
@@ -24,6 +24,8 @@
     </label>
   </p>
   <p>
+    <input type="hidden" name="_next" value="https://demo-20200516.netlify.app/thanks">
     <input type="submit" value="Send">
   </p>
 </form>
+
