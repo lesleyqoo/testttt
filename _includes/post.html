@@ -2,5 +2,7 @@
 layout: layout.html
 ---
 <h1>{{title}}</h1>
-<p>Published at {{page.date}}</p>
+
+<p>Published on {{date toISOString}}.</p>
+
 {{content}}
