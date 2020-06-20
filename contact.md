@@ -32,7 +32,7 @@ layout: layout.html
     </label>
   </p>
   <p>
-    <input type="hidden" name="_next" value="https://demo-20200516.netlify.app/thanks">
+    <input type="hidden" name="_next" value="https://naughty-johnson-6fc73d.netlify.app/thanks">
     <input type="submit" value="Send">
   </p>
 </form>
