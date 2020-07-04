@@ -12,13 +12,5 @@ Here is a [link to index page](/index.html).
 
 This is content inside _heading 2_.
 
-- asdfasdfsd
-- asdfasdf
-- asdf asdf asdf 
+blablabla
 
-And ordered-list:
-
-1. asdf asdf 
-2. <del>ddasdf asdf</del><small>No more step 2</small>
-3. asdf asdf 
-4. dfdfgdgfd
