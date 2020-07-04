@@ -2,71 +2,23 @@
 layout: layout.html
 ---
 
-# Contact us
+# About This Demo site
 
-## via FormSubmit.co
+Just a **demo**.
 
-<form name="contact" method="POST" action="https://formsubmit.co/demo@makzan.net" enctype="multipart/form-data">
-  <p>
-    <label>
-      Your Name: 
-      <input type="text" name="name" />
-    </label>   
-  </p>
-  <p>
-    <label>
-      Your Email: 
-      <input type="email" name="email" />
-    </label>
-  </p>
-  <p>
-    <label>
-      Message: 
-      <textarea name="message"></textarea>
-    </label>
-  </p>
-  <p>
-    <label>
-      Attachment:
-      <input type="file" name="attachment">
-    </label>
-  </p>
-  <p>
-    <input type="hidden" name="_next" value="https://demo-20200516.netlify.app/thanks">
-    <input type="submit" value="Send">
-  </p>
-</form>
+Here is a [link to index page](/index.html).
 
-## via Netlify Form
+## Sub-heading
 
-<form name="contact" method="POST" data-netlify="true" enctype="multipart/form-data">
-  <p>
-    <label>
-      Your Name: 
-      <input type="text" name="name" />
-    </label>   
-  </p>
-  <p>
-    <label>
-      Your Email: 
-      <input type="email" name="email" />
-    </label>
-  </p>
-  <p>
-    <label>
-      Message: 
-      <textarea name="message"></textarea>
-    </label>
-  </p>
-  <p>
-    <label>
-      Attachment:
-      <input type="file" name="attachment" multiple>
-    </label>
-  </p>
-  <p>
-    <input type="submit" value="Send">
-  </p>
-</form>
+This is content inside _heading 2_.
 
+- asdfasdfsd
+- asdfasdf
+- asdf asdf asdf 
 
+And ordered-list:
+
+1. asdf asdf 
+2. <del>ddasdf asdf</del><small>No more step 2</small>
+3. asdf asdf 
+4. dfdfgdgfd
